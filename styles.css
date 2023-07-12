@@ -1,35 +1,11 @@
-/*body {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  background-color: #8338ec;
-  color: azure;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container button {
-  margin-left: 10px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: white;
-  color: #4b1399;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
-
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #8338ec;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -57,6 +33,8 @@ body {
   border: none;
   cursor: pointer;
   font-size: 15px;
+  font-weight: bold;
+  color: #4a198f;
   width: 100px;
 }
 
@@ -71,10 +49,12 @@ p {
 .greetings {
   margin-bottom: 28px;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .message {
   background-color: white;
   color: black;
   font-size: 25px;
+  font-weight: bold;
 }
